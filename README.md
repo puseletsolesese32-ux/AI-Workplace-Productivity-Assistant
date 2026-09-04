@@ -4,7 +4,7 @@
 
 The AI Workplace Productivity Assistant is a web application designed to help employees manage common workplace tasks more efficiently using artificial intelligence.
 
-The application combines several productivity tools into one platform, including email generation, meeting note summarization, and task planning.
+The application combines several productivity tools into one platform, including email generation, meeting note summarization, task planning, and an AI workplace assistant.
 
 ## Features
 
@@ -30,8 +30,9 @@ The application combines several productivity tools into one platform, including
 
 ### 4. AI Assistant
 
-* Provides an interface for interacting with an AI workplace assistant.
-* Helps users with workplace productivity questions and tasks.
+* Interact with an AI workplace assistant.
+* Ask questions related to workplace productivity.
+* Receive useful AI-generated responses.
 
 ## Design
 
@@ -43,6 +44,11 @@ The application includes:
 * Clear input and output sections
 * Loading and error states
 * Editable AI-generated content
+* User-friendly navigation
+
+## Responsible AI
+
+AI-generated content may contain mistakes. Users should review and verify important information before using it, especially for important workplace decisions or communications.
 
 ## Technologies
 
@@ -51,7 +57,20 @@ The application includes:
 * Vite
 * TanStack
 * Tailwind CSS
+* Lovable
 
+## Project Purpose
+
+This project was developed as part of the CAPACITI AI Skills Acceleration Programme to demonstrate practical AI implementation, prompt engineering, workplace problem-solving, responsible AI use, and modern web application development.
+
+## Development
+
+To run the project locally:
+
+```bash
+npm install
+npm run dev
+```
 
 Then open the local development address provided in the terminal.
 
@@ -59,15 +78,6 @@ Then open the local development address provided in the terminal.
 
 This repository contains the source code for the AI Workplace Productivity Assistant.
 
+## Author
 
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
-This project was built by Puseletso Lesese
+Puseletso Lesese
